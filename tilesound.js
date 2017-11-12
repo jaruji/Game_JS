@@ -1,0 +1,50 @@
+//tiles
+tile = new Image();
+tile.width = 64;
+tile.height = 64;
+bul= new Image();
+tile1= new Image();
+tile1.src = 'Art/grass_tile.png';
+tile2= new Image();
+tile2.src = 'Art/flower_tile.png';
+tile3=new Image();
+tile3.src = 'Art/tree1_tile.png';
+tile4=new Image();
+tile4.src = 'Art/tree2_tile.png';
+tile5=new Image();
+tile5.src = 'Art/statue_tile.png';
+heart = new Image();
+heart.src = 'Art/heart_full.png';
+pouch = new Image();
+pouch.src = 'Art/enemy_gold.png';
+heroimage = new Image();
+manaa = new Image();
+mana = new Image();
+manaa.src = 'Art/mana.png';
+menu=new Image();
+tutorial = new Image();
+tutorial.src = 'Art/tutorial.png';
+controls = new Image();
+controls.src = 'Art/controls.png';
+//menu.src = 'Art/grass.png';
+
+//sounds
+var sound_on = 1;
+var sound_ready = 1;
+var sound = new Audio("Audio/lvl2.mp3");
+sound.loop = true;
+if(sound_on === 1)
+  sound.play();
+var step = new Audio ("Audio/step.wav");
+var gold = new Audio ("Audio/gold.wav");
+var potion = new Audio ("Audio/potion.wav");
+var unlock = new Audio ("Audio/unlock.wav");
+var game_over = new Audio("Audio/game_over.wav");
+var damage = new Audio ("Audio/damage.wav");
+var fire = new Audio ("Audio/fireball.mp3");
+var manas = new Audio("Audio/mana.mp3");
+var spawns = new Audio("Audio/spawn.wav");
+var gong = new Audio("Audio/gong.wav");
+var enemyhit = new Audio ("Audio/enemyhit.wav");
+var dead = new Audio("Audio/death.mp3");
+var nomana = new Audio("Audio/nomana.wav");
